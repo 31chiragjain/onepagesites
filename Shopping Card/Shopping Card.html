@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="Shopping Card.css"/>
     <script type="text/javascript">
       function alertit(){
-        alert("This will redirect to nowhere :-)");
+        alert("Added to cart");
+      }
+      function myfunction(){
+        var elememt = document.body;
+        elememt.classList.toggle("Dark-mode");
       }
     </script>
 
@@ -41,5 +45,7 @@
           <a href="javascript:alertit()" class="cart-btn">Add to cart</a>
         </div>
   		</div>
+    </div>
+      <button onclick="myfunction()">Dark Mode</button>
   </body>
   </html>

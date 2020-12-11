@@ -13,7 +13,7 @@
 	width: 280px;
 	height: 370px;
 	background: url("background.jpg") center/cover;
-	box-shadow: -20px 0px 20px 10px #538080a6;
+	box-shadow: -20px 0px 20px 10px #7484845c;
 	border-radius: 10px;
 	overflow: hidden;
 	transition: .4s ease;
@@ -59,6 +59,7 @@
 .sizes ul{
 	display: flex;
 	list-style: none;
+	cursor: pointer;
 }
 
 ul li{
@@ -72,6 +73,12 @@ ul li{
 	border: 1px solid transparent;
 	transition: .5s; 
 }
+
+li:hover{
+	background-color: #000;
+	color: #fff;
+}
+
 #price{
 	margin-top: 20px;
 	font-weight: bolder;
@@ -102,10 +109,16 @@ ul li{
 	transform: translateY(0);
 }
 
-ul li:hover{
-	border-color: #f00;
-}
-
 a{
 	text-decoration: none;
+}
+
+.Dark-mode{
+	background-color: black;
+}
+
+button{
+	position: absolute;
+	top: 10%;
+	left: 90%
 }
